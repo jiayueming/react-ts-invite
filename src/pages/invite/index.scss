@@ -1,0 +1,243 @@
+.invite-container{
+    // position: relative;
+    padding-bottom: 2.2rem;
+    overflow-y: scroll;
+    .head{
+        padding: .3rem;
+        background: #fff;
+        .inner-header{
+            // height: 3rem;
+            padding: .34rem .3rem .3rem .43rem;
+            box-sizing: border-box;
+            border-radius: .1rem;
+            background: url('../../common/image/inviteBg.png') no-repeat;
+            background-size: 100% 100%;
+        }
+        .top{
+            display: flex;
+            align-items: center;
+            // justify-content: space-between;
+            padding-bottom: .3rem;
+            color: #fff;
+            border-bottom: 1px solid rgba(244,245,246,.1);
+            .avatar{
+                display: block;
+                width: .9rem;
+                height: .9rem;
+                margin-right: .23rem;
+                border-radius: 100%;
+                background: #eee;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 100%;
+                    display: block;
+                }
+            }
+            .mobile{
+                font-size: .32rem;
+            }
+            .vipClass{
+                width: .74rem;
+                height: .3rem;
+                margin-left: .2rem;
+                padding-top: 0.02rem;
+                box-sizing: border-box;
+                text-align: center;
+                font-size: .24rem;
+                border-radius: .05rem;
+                background: #FFBD32;
+            }
+            .info{
+                margin-top: .15rem;
+                font-size: .2rem;
+            }
+            .narrow img{
+                margin-left: .7rem;
+                width: .18rem;
+            }
+        }
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            margin-top: .56rem;
+            .item{
+                p:first-child{
+                    margin-bottom: .21rem;
+                    text-align: center;
+                    color: #fff;
+                    font-size: .4rem;
+                }
+                p:last-child{
+                    font-size: .24rem;
+                    color:rgba(233,238,255,.6);
+                }
+            }
+        }
+    }
+    .middle{
+        margin-top: .22rem;
+        background: #fff; 
+        .bg-middle{
+            background: url('../../common/image/firework1.png') no-repeat;
+            background-position: .1rem .2rem;
+            background-size: contain;
+        }
+        .showRank{
+            display: flex;
+            //background: yellowgreen;
+            padding: .94rem .3rem 0;
+            box-sizing: border-box;
+            font-size: .28rem;
+            .rank1,.rank2,.rank3{
+                display: flex;
+                position: relative;
+                align-items: center;
+                flex-direction: column;
+                padding-top: .7rem;
+            }
+            .mobile{
+                margin-top: .36rem;
+                color: #333333;
+            }
+            .prize{
+                margin-top: .21rem;
+                color: #FFBD32;
+                .icon{
+                    width: .28rem;
+                    margin-right: .12rem;
+                }
+            }
+            .rank1{
+                flex: 1;
+                height: 3.34rem;
+                margin-top: .48rem;
+                background: url('../../common/image/background1@2x.png') no-repeat;
+                background-size: 100% 100%;
+            }
+            .rank2{
+                width: 2.52rem;
+                height: 3.35rem;
+                background: url('../../common/image/background1@2x.png') no-repeat;
+                background-size: 100% 100%;
+            }
+            .rank3{
+                flex: 1;
+                height: 3.34rem;
+                margin-top: .48rem;
+                background: url('../../common/image/background1@2x.png') no-repeat;
+                background-size: 100% 100%;
+            }
+            .avatar{
+                background: #eee;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 100%;
+                }
+            }
+            .rank1 .avatar{
+                width: .72rem;
+                height: .72rem;
+                border-radius: 100%;
+            }
+            .rank2 .avatar{
+                width:.85rem;
+                height: .85rem;
+                border-radius: 100%;
+            }
+            .rank3 .avatar{
+                width: .65rem;
+                height: .65rem;
+                border-radius: 100%;
+            }
+            .num1 img,.num2 img,.num3 img{
+                position: absolute;
+                top: .1rem;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            .num1 img{
+                width: .41rem; 
+            }
+            .num2 img{
+                width: .53rem;
+                top:-.4rem;
+            }
+            .num3 img{
+                width: .36rem;
+                top:.2rem;
+            }
+        }
+        .buleInfo{
+            padding-bottom: 2rem;
+            text-align: center;
+            color: #0A47FF;
+            font-size: .24rem;
+        }
+    }
+    .footer{
+        position: fixed;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 0;
+        margin-top: .22rem;
+        background: #fff;
+        .shareCode{
+            height: 1rem;
+            display: flex;
+            align-items: center;
+            padding: 0 .9rem;
+            background: #fff;
+            .name{
+                font-size: .3rem;
+                color: #95A3CA;
+            }
+            .code{
+                max-width: 1.2rem;
+                margin-left: .24rem;
+                font-size: .32rem;
+                input{
+                    max-width: 1.2rem;
+                    font-weight: bold;
+                    color: #2851E7;
+                    border: 0;
+                }
+            }
+            button{
+                border: 0;
+                outline: none;
+            }
+            .copyBox{
+                width: 1.3rem;
+                height: .5rem;
+                margin-left: 2rem;
+                text-align: center;
+                line-height: .5rem;
+                box-sizing: border-box;
+                font-size: .24rem;
+                color: #95A3CA;
+                background:rgba(244,244,244,1);
+                border-radius: .1rem;
+            }
+            .copyIcon{
+                width: .24rem;
+                height: .24rem;
+                margin-right: .14rem;
+                background: url('../../common/image/copy@2x.png') no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+        .shareBtn{
+            height: 1rem;
+            text-align: center;
+            line-height: 1rem;
+            font-size: .32rem;
+            font-weight:bold;
+            color: #fff;
+            background: #2851E7
+        }
+    }
+}
